@@ -1,0 +1,16 @@
+{
+  "name": "ark-nitrado-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for ARK (Nitrado) - log scanner and alerts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "basic-ftp": "^4.6.2",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.4.0",
+    "sqlite3": "^5.1.6",
+    "rcon-client": "^6.0.0"
+  }
+}

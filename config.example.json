@@ -1,0 +1,22 @@
+{
+  "token": "DEIN_DISCORD_BOT_TOKEN",
+  "prefix": "!",
+  "guildId": "DEINE_GUILD_ID",
+  "alertChannelId": "CHANNEL_ID_FUER_ALERTS",
+  "moderatorRoleIds": ["ROLE_ID1", "ROLE_ID2"],
+  "ftp": {
+    "host": "ftp.nitrado.net",
+    "port": 21,
+    "user": "FTP_USERNAME",
+    "password": "FTP_PASSWORD",
+    "logsPath": "ShooterGame/Saved/Logs",
+    "secure": false
+  },
+  "rcon": {
+    "enabled": false,
+    "host": "SERVER_IP",
+    "port": 27020,
+    "password": "RCON_PASSWORD"
+  },
+  "pollIntervalMinutes": 3
+}
